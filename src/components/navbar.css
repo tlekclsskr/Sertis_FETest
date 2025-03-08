@@ -1,0 +1,24 @@
+* {
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar {
+/* Nav bar */
+
+/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.406vw 3.125vw;
+    gap: 0.781vw;
+    position: absolute;
+    width: 100%;
+    height: 5vw;
+}
+
+.navbar img{
+    height: 2.188vw;
+    width: 5.703vw;
+}

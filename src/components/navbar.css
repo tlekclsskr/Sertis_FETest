@@ -5,15 +5,12 @@
   }
 
 .navbar {
-/* Nav bar */
-
-/* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 1.406vw 3.125vw;
     gap: 0.781vw;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 5vw;
 }

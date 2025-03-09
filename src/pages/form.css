@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,600&display=swap');
 
 body {
     background-image: url('C:\coding\sertis\fetest\src\img\bg_regis.png');
@@ -9,38 +9,200 @@ body {
     background-attachment: fixed;
 }
 
-.container {
-    width: 77.969vw;
-    height: 45.313vw;
+.rf-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    justify-self: center;
-    padding-top: 5.469vw;
+    align-items: center;
+    height: 100vh;
+    padding: 5.469vw 11.016vw;
 }
 
-.content-text {
+.rf-content-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
-.content-text h4, .content-text h3 {
-    margin: 0 0;
-    padding: 0 0;
-}
-
-.content-text h4 {
+.rf-content-text h4 {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 3rem;
     color: white;
 }
 
-.content-text h3 {
+.rf-content-text h3 {
     font-family: 'Old Standrad TT';
     font-weight: 400;
-    font-size: 3.5rem;
     font-style: italic;
+    font-size: 3.5rem;
     color: white;
+}
+
+.rf-content-form {
+    width: 491px;
+    height: 580px;
+    background-color: white;
+    border-radius: 1.875vw;
+    padding: 32px;
+    gap: 12px;
+}
+
+.rf-content-form p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1B1D22;
+}
+
+.rf-form {
+    display: flex;
+    flex-direction: column;
+    height: 68px;
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #3A3F4A;
+}
+
+.rf-form label {
+    flex: 1;
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3A3F4A;
+}
+
+.rf-form input {
+    flex: 1;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1B1D22;
+    outline: none;
+    box-shadow: none;
+}
+
+.rf-form input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #AFB4C0;
+}
+
+.rf-telephone {
+    display: flex;
+    flex-direction: row;
+    width: 427px;
+    height: 68px;
+    padding: 8px 0;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 68px;
+    padding-right: 8px;
+    border-bottom: 1px solid #3A3F4A;
+    padding: 8px 0;
+}
+
+.code label {
+    flex: 1;
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3A3F4A;   
+}
+
+.code select {
+    flex: 1;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+.code select {
+    flex: 1;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid #3A3F4A;
+    padding: 8px 0;
+}
+
+.phone label {
+    flex: 1;
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3A3F4A;   
+}
+
+.phone input {
+    flex: 1;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1B1D22;
+    outline: none;
+    box-shadow: none;
+}
+
+.phone input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #AFB4C0;
+}
+
+.rf-content-form form {
+    width: 427px;
+    height: 456px;
+}
+
+.rf-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 427px;
+    height: 48px;
+    margin-top: 48px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 124px;
+    height: 48px;
+    padding: 12px 24px;
+    border: 1px solid #AFB4C0;
+    border-radius: 100px;
+    background: transparent;
+}
+
+.btn p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    color: #AFB4C0;
+}
+
+.btn svg {
+    width: 24px;
+    height: 24px;
 }

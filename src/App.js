@@ -1,13 +1,17 @@
-import logo from './logo.svg';
 import Navbar from './components/navbar';
 import Welcomepage from './pages/welcome';
 import RegisterForm from './pages/form';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-    <RegisterForm />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Welcomepage />}  />
+        <Route path="/register" element={<RegisterForm />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,600&display=swap');
+
+.cf-body {
+    background-image: url('../img/bg_regis.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cf-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 5.469vw 11.016vw;
+}
+
+.cf-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cf-content-text h4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+}
+
+.cf-content-form {
+    width: 38.359vw;
+    height: 45.313vw;
+    background-color: white;
+    border-radius: 1.875vw;
+    padding: 2.5vw;
+    gap: 0.938vw;
+}
+
+.cf-content-form-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cf-content-form-top p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1B1D22;
+}
+
+.cf-content-form-top a svg {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.cf-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.625vw 0;
+    gap: 0.313vw;
+    margin-bottom: 2.656vw;
+}
+
+.cf-content-form-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.781vw;
+}
+
+.cf-form #up {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3a3f4a;
+}
+
+.cf-form #down {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1B1D22;
+}
+
+.cf-content-form-btn {
+    margin-top: 0.938vw;
+    height: 3.75vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cf-btn a {
+    width: 12.266vw;
+    height: 3.75vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.938vw 1.875vw;
+    gap: 0.781vw;
+    border: 0.078vw solid #1B1D22;
+    border-radius: 7.813vw;
+    text-decoration: none;
+}
+
+.cf-btn #BL {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #1B1D22;
+}

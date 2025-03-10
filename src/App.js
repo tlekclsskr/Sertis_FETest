@@ -1,6 +1,9 @@
 import Navbar from './components/navbar';
-import Welcomepage from './pages/welcome';
-import RegisterForm from './pages/form';
+import WelcomePage from './pages/welcome';
+import RegisterPage from './pages/form';
+import ConfirmationPage from './pages/confirm';
+import SuccessPage from './pages/success';
+import EditprofilePage from './pages/editprofile';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
@@ -9,8 +12,11 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Welcomepage />}  />
-        <Route path="/register" element={<RegisterForm />} />
+        <Route path="/" element={<WelcomePage />}  />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path='/confirmation' element={<ConfirmationPage />} />
+        <Route path='/editprofile'element={<EditprofilePage />} />
+        <Route path='/success' element={<SuccessPage />} />
       </Routes>
     </div>
   );

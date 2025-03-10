@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,600&display=swap');
+
+.ep-body {
+    background-image: url('../img/bg_regis.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ep-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 5.469vw 11.016vw;
+}
+
+.ep-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.ep-content-text h4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+}
+
+.ep-content-text h3 {
+    font-family: 'Old Standrad TT';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.ep-content-form {
+    width: 38.359vw;
+    height: 45.313vw;
+    background-color: white;
+    border-radius: 1.875vw;
+    padding: 2.5vw;
+    gap: 0.938vw;
+}
+
+.ep-content-form p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1B1D22;
+}
+
+.ep-form {
+    display: flex;
+    flex-direction: column;
+    height: 5.313vw;
+    width: 100%;
+    padding: 0.625vw 0;
+    margin-bottom: 1.25vw;
+    border-bottom: 0.078vw solid #3A3F4A;
+}
+
+.ep-form label {
+    flex: 1;
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3A3F4A;
+}
+
+.ep-form input {
+    flex: 1;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1B1D22;
+    outline: none;
+    box-shadow: none;
+}
+
+.ep-form input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #AFB4C0;
+}
+
+.ep-telephone {
+    display: flex;
+    flex-direction: row;
+    width: 33.359vw;
+    height: 5.313vw;
+    padding: 0.625vw 0;
+    gap: 1.25vw;
+    margin-bottom: 1.25vw;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    width: 9.375vw;
+    height: 5.313vw;
+    padding-right: 0.625vw;
+    border-bottom: 0.078vw solid #3A3F4A;
+    padding: 0.625vw 0;
+}
+
+.code label {
+    flex: 1;
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3A3F4A;   
+}
+
+.code select {
+    flex: 1;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+
+.code select {
+    flex: 1;
+    height: 1.875vw;
+    border: none;
+    outline: none;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5.313vw;
+    border-bottom: 0.078vw solid #3A3F4A;
+    padding: 0.625vw 0;
+}
+
+.phone label {
+    flex: 1;
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #3A3F4A;   
+}
+
+.phone input {
+    flex: 1;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1B1D22;
+    outline: none;
+    box-shadow: none;
+}
+
+.phone input::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #AFB4C0;
+}
+
+.ep-content-form form {
+    width: 33.359vw;
+    height: 35.625vw;
+}
+
+.ep-button {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.75vw;
+}
+
+.cancel-btn {
+    border: none;
+    background: transparent;
+    padding: 0.938vw 1.875vw;
+}
+
+.cancle-btn #cancel {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #1B1D22;
+}
+
+.save-btn {
+    border: 0.078vw solid #AFB4C0;
+    background: transparent;
+    border-radius: 7.813vw;
+    padding: 0.938vw 1.875vw;
+}
+
+.save-btn #save {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #AFB4C0;
+}

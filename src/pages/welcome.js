@@ -1,7 +1,7 @@
 import './welcome.css'
 import { Link } from "react-router-dom";
 
-const Welcomepage = () => {
+const WelcomePage = () => {
     return(
         <div className="wc-body">
             <div className="wc-container">
@@ -20,4 +20,4 @@ const Welcomepage = () => {
     )
 }
 
-export default Welcomepage;
+export default WelcomePage;
